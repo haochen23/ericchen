@@ -104,7 +104,7 @@ const about = () => {
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={2} />+
+                  <AnimatedNumber value={6} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
@@ -115,7 +115,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={20} />+
+                  <AnimatedNumber value={40} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
@@ -127,21 +127,21 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={40} />+
+                  <AnimatedNumber value={10} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Terraform Modules
+                  Satisfied Customers
                 </h2>
               </div>
             </div>
           </div>
           <Skills />
-          <Certifications />
           <Experience />
           <Education />
+          <Certifications />
         </Layout>
       </main>
     </>

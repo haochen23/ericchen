@@ -43,7 +43,7 @@ const Education = () => {
       >
         Education
       </h2>
-      <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
+      <div ref={ref} className="w-[80%] mx-auto relative lg:w-[90%] md:w-full">
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
@@ -52,16 +52,22 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor In Art Design"
-            place="Beijing, China"
-            time="2009-2014"
-            info="Beijing Jiaotong University (BJTU). Major in Graphic and Art Design."
+            type="Ph.D. in Mechatronics Engineering"
+            place="Aucklnad, New Zealand"
+            time="2015-2019"
+            info="University of Auckland. Ph.D in Mechatronics Engineering."
           />
           <Details
-            type="Diploma In Business Management"
-            place="Auckland, New Zealand"
-            time="2015-2016"
-            info="New Zealand Institute of Study"
+            type="Master in Information and Signal Processing"
+            place="Beijing, China"
+            time="2011-2014"
+            info="Beijing Jiaotong University"
+          />
+          <Details
+            type="Bachelor in Biomedical Engineering"
+            place="Beijing, China"
+            time="2007-2011"
+            info="Beijing Jiaotong University"
           />
         </ul>
       </div>
