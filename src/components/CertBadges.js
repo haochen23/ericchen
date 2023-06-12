@@ -11,13 +11,6 @@ import {
   SolutionArchitectImage,
   TerraformAssociateImage
 } from "./CertImages"
-import {
-  AdminNoBg,
-  AmbientNoBg,
-  IstioNoBg,
-  NetworkNoBg,
-  SolutionNoBg
-} from "./icons"
 
 const CertBadges = () => {
   return (

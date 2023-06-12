@@ -1,13 +1,18 @@
 import { motion, useScroll } from "framer-motion"
 import React, { useRef } from "react"
-import LiIcon from "./LiIcon"
 import {
-  AdminNoBg,
-  AmbientNoBg,
-  IstioNoBg,
-  NetworkNoBg,
-  SolutionNoBg
-} from "./icons"
+  AzureAdministratorImage,
+  CybersecurityArchitectImage,
+  DevopsEngineerImage,
+  IamAdministratorImage,
+  IstioExpertImage,
+  NetworkEngineerImage,
+  SecurityEngineerImage,
+  SecurityOperationsAnalystImage,
+  SolutionArchitectImage,
+  TerraformAssociateImage
+} from "./CertImages"
+import LiIcon from "./LiIcon"
 
 const Details = ({ title, iconComponnet }) => {
   const ref = useRef(null)
@@ -30,7 +35,7 @@ const Details = ({ title, iconComponnet }) => {
           {time}
         </span> */}
         <div className="font-medium w-full flex md:text-sm place-items-start">
-          <div className="w-32 h-auto mt-2">{iconComponnet}</div>
+          <div className="w-28 h-auto mt-2">{iconComponnet}</div>
         </div>
       </motion.div>
     </li>
@@ -52,14 +57,14 @@ const Certifications = () => {
         View full certification profile at{" "}
         <a
           className="underline text-primary dark:text-primaryDark"
-          href="https://www.credly.com/users/jing-tian.cb19ac1e"
+          href="https://www.credly.com/users/hao-chen.c4b252a3"
           target="_blank"
         >
           Credly
         </a>
       </p>
 
-      <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
+      <div ref={ref} className="w-[80%] mx-auto relative lg:w-[90%] md:w-full">
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
@@ -72,23 +77,43 @@ const Certifications = () => {
         >
           <Details
             title="Microsoft Certified: Azure Solutions Architect Expert"
-            iconComponnet={<SolutionNoBg className="" />}
+            iconComponnet={<SolutionArchitectImage className="" />}
+          />
+          <Details
+            title="Microsoft Certified: DevOps Engineer Expert"
+            iconComponnet={<DevopsEngineerImage className="" />}
+          />
+          <Details
+            title="Microsoft Certified: Cybersecurity Architect Expert"
+            iconComponnet={<CybersecurityArchitectImage className="" />}
           />
           <Details
             title="Microsoft Certified: Azure Administrator Associate"
-            iconComponnet={<AdminNoBg className="" />}
+            iconComponnet={<AzureAdministratorImage className="" />}
+          />
+          <Details
+            title="Microsoft Certified: Azure Security Engineer Associate"
+            iconComponnet={<SecurityEngineerImage className="" />}
+          />
+          <Details
+            title="Microsoft Certified: Security Operations Analyst Associate"
+            iconComponnet={<SecurityOperationsAnalystImage className="" />}
+          />
+          <Details
+            title="Microsoft Certified: Identity and Access Administrator Associate"
+            iconComponnet={<IamAdministratorImage className="" />}
+          />
+          <Details
+            title="Microsoft Certified: Azure Network Engineer Associate"
+            iconComponnet={<NetworkEngineerImage className="" />}
           />
           <Details
             title="Expert for Istio by Solo.io"
-            iconComponnet={<IstioNoBg className="" />}
+            iconComponnet={<IstioExpertImage className="" />}
           />
           <Details
-            title="Fundamentals for Istio Ambient Mesh by Solo.io"
-            iconComponnet={<AmbientNoBg className="" />}
-          />
-          <Details
-            title="Network Foundations by Solo.io"
-            iconComponnet={<NetworkNoBg className="" />}
+            title="HashiCorp Certified: Terraform Associate (002)"
+            iconComponnet={<TerraformAssociateImage className="" />}
           />
         </ul>
       </div>

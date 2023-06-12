@@ -41,7 +41,7 @@ const Skills = () => {
         >
           Cloud
         </motion.div>
-        <Skill name="Web" x="-25vw" y="-10vw" />
+        <Skill name="Web" x="-15vw" y="-10vw" />
         <Skill name="Azure" x="-13vw" y="2vw" />
         <Skill name="Azure DevOps" x="-33vw" y="10vw" />
         <Skill name="Kubernetes" x="5vw" y="10vw" />
@@ -49,16 +49,14 @@ const Skills = () => {
         <Skill name="System Design" x="37vw" y="-8vw" />
         <Skill name="Cloud Native App" x="40vw" y="3vw" />
         <Skill name="Docker" x="-35vw" y="0vw" />
-        <Skill name="Git/GitHub" x="-25vw" y="30vw" />
+        <Skill name="Git/GitHub" x="-25vw" y="15vw" />
         <Skill name="CI/CD Yaml pipelines" x="5vw" y="-18vw" />
-        <Skill name="DevOps Engineer" x="25vw" y="-30vw" />
         <Skill name="Platform Engineer" x="25vw" y="-23vw" />
         <Skill name="Solution Architect" x="5vw" y="-10vw" />
         <Skill name="DevOps/GitOps" x="0vw" y="-27vw" />
         <Skill name="Cloud Engineering" x="15vw" y="15vw" />
-        <Skill name="Backend Engineer" x="25vw" y="30vw" />
-        <Skill name="IaC/Terraform" x="-26vw" y="-26vw" />
-        <Skill name="Infrastructure as Code" x="-26vw" y="-15vw" />
+        <Skill name="Backend Engineer" x="5vw" y="5vw" />
+        <Skill name="IaC/Terraform" x="-26vw" y="-15vw" />
         <Skill name="Nodejs" x="-20vw" y="20vw" />
         <Skill name="Python" x="33vw" y="10vw" />
         <Skill name="Bash/Powershell Scripting" x="5vw" y="20vw" />
